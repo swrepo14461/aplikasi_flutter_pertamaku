@@ -18,6 +18,8 @@ class _ProdukDetailState extends State<ProdukDetail> {
     // TODO: implement build
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
         title: const Text("Detail Produk"),
       ),
       body: Column(

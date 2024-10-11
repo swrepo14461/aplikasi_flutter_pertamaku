@@ -1,6 +1,7 @@
 import 'package:aplikasi_flutter_pertamaku/column_widget.dart';
 import 'package:aplikasi_flutter_pertamaku/row_widget.dart';
 import 'package:aplikasi_flutter_pertamaku/ui/produk_form.dart';
+import 'package:aplikasi_flutter_pertamaku/ui/produk_page.dart';
 import 'package:flutter/material.dart';
 
 import 'hello_world.dart';
@@ -37,7 +38,7 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: ProdukForm(),
+      home: ProdukPage(),
     );
   }
 }

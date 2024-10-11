@@ -35,7 +35,7 @@ class _ProdukFormState extends State<ProdukForm> {
   }
 
   _textboxKodeProduk() {
-    return TextField(decoration: const InputDecoration(hintText: "masukkan kode produk", labelText: "Kode Produk", icon: Icon(Icons.fmd_good_sharp)),
+    return TextField(decoration: const InputDecoration(hintText: "masukkan kode produk", labelText: "Kode Produk"),
       controller: _kodeProdukTextboxController,);
   }
 
